@@ -1,3 +1,9 @@
+Reason for the fork: kept getting the error
+for item in mat["items"]:
+KeyError: 'items'
+
+This fork is a hotfix of that. 
+
 <h2>Python YouTube API</h2>
 
 A basic Python YouTube v3 API to fetch data from YouTube using public API-Key without OAuth.
