@@ -13,7 +13,7 @@ from urllib.request import  urlopen
 from config import YOUTUBE_COMMENT_URL, SAVE_PATH
 
 
-class VideoComment:
+class YouTubeApi:
     def __init__(self, maxResults, videoId, key ):
         self.comments = defaultdict(list)
         self.replies = defaultdict(list)
