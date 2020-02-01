@@ -8,6 +8,8 @@ from collections import defaultdict
 import json
 import pandas as pd
 from utils.helper import openURL
+from urllib.parse import urlparse, urlencode, parse_qs
+from urllib.request import  urlopen
 from config import YOUTUBE_COMMENT_URL, SAVE_PATH
 
 
